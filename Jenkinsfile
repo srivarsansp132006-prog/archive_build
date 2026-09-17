@@ -8,7 +8,7 @@ pipeline{
         }
         stage('GenerateReport') {
             steps{
-                bat 'pythonapp.py'
+                bat 'python app.py'
             }
         }
         stage('ArchiveReport'){
